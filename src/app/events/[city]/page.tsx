@@ -27,4 +27,3 @@ export default async function EventsPage({ params }: EventsPageProps) {
     </main>
   );
 }
-``;
