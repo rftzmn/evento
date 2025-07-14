@@ -12,7 +12,7 @@ export default async function EventPage({ params }: EventPageProps) {
     `https://bytegrad.com/course-assets/projects/evento/api/events/${slug}`
   );
   const event = await response.json();
-  console.log(event);
+  // console.log(event);
   return (
     <main>
       <section className='relative overflow-hidden flex justify-center items-center py-14 md:py-20'>
